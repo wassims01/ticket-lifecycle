@@ -26,29 +26,41 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 - Assignment and Communication
 - Working the Issue
 - Resolution
+</p>
 
-<h2>Lifecycle Stages</h2>
+A user submits a ticket via web form, email, phone, or chat.
+Required details: Issue description, priority, category, attachments (if any).
+Ticket is logged into the system and assigned a unique ID.
+</p>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/mepWmAy.png" alt="Banking Outage Screenshot" style="width: 80%;"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+ 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+ Agent Review & First Response
+The assigned agent reviews ticket details.
+If needed, the agent requests additional information from the user.
+The user receives an email notification about ticket status.
+
+<img src="https://i.imgur.com/GX0JxFX.png" alt="Image Description" width="500"/>
+
+Troubleshooting & Resolution Process
+The agent investigates the issue.
+Possible outcomes:
+Resolved immediately (simple fixes).
+Escalated to another team (complex issues).
+Pending User Response (waiting for more details).
+
+<img src="https://i.imgur.com/1xeZ23i.png" alt="Image Description 2" width="500"/>
+
+ Escalation & Collaboration
+If the issue is critical, the agent escalates the ticket to:
+Senior Support Team
+SysAdmins/Developers
+Vendor Support (for third-party software/hardware issues).
+Notes and actions are updated in the ticket history.
+
+
+<img src="https://i.imgur.com/3n9aSeL.png" alt="Image Description" width="500"/>
+
