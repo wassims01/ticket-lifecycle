@@ -67,7 +67,8 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
    - The issue is resolved, and the ticket is closed.
    - Final notes and resolutions are documented for future reference.
 
----
+
+<img src="https://i.imgur.com/F5984b4.png" alt="Description of the image">
 
 ## Key Features of osTicket
 
@@ -78,12 +79,3 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 ---
 
-## Contributing
-
-If you'd like to contribute to this project or suggest improvements, feel free to open an issue or submit a pull request.
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
