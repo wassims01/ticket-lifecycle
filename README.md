@@ -1,66 +1,89 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+  <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo" width="200"/>
 </p>
 
-<h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
-This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
+# osTicket - Ticket Lifecycle: Intake Through Resolution
+
+This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system **osTicket**.
+
+---
 
 
-<h2>Video Demonstration</h2>
+---
 
-- ### [YouTube: How to create, work, and resolves tickets within osTicket](https://www.youtube.com)
+## Environments and Technologies Used
 
-<h2>Environments and Technologies Used</h2>
+- **Microsoft Azure**: Virtual Machines / Compute
+- **Remote Desktop**
+- **Internet Information Services (IIS)**
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+---
 
-<h2>Operating Systems Used </h2>
+## Operating Systems Used
 
-- Windows 10</b> (21H2)
+- **Windows 10 (21H2)**
 
-<h2>Ticket Lifecycle Stages</h2>
+---
 
-- Intake
-- Assignment and Communication
-- Working the Issue
-- Resolution
-</p>
+## Ticket Lifecycle Stages
 
-A user submits a ticket via web form, email, phone, or chat.
-Required details: Issue description, priority, category, attachments (if any).
-Ticket is logged into the system and assigned a unique ID.
-</p>
+1. **Intake**
+   - A user submits a ticket via web form, email, phone, or chat.
+   - Required details:
+     - Issue description
+     - Priority
+     - Category
+     - Attachments (if any)
+   - The ticket is logged into the system and assigned a unique ID.
 
-<img src="https://imgur.com/mepWmAy.png" alt="Banking Outage Screenshot" style="width: 80%;"/>
-</p>
+   ![Ticket Intake Screenshot](https://imgur.com/mepWmAy.png)
 
- 
+2. **Assignment and Communication**
+   - The assigned agent reviews the ticket details.
+   - If needed, the agent requests additional information from the user.
+   - The user receives an email notification about the ticket status.
 
- Agent Review & First Response
-The assigned agent reviews ticket details.
-If needed, the agent requests additional information from the user.
-The user receives an email notification about ticket status.
+   ![Agent Review](https://i.imgur.com/GX0JxFX.png)
 
-<img src="https://i.imgur.com/GX0JxFX.png" alt="Image Description" width="500"/>
+3. **Working the Issue**
+   - The agent investigates the issue.
+   - Possible outcomes:
+     - Resolved immediately (simple fixes).
+     - Escalated to another team (complex issues).
+     - Pending User Response (waiting for more details).
 
-Troubleshooting & Resolution Process
-The agent investigates the issue.
-Possible outcomes:
-Resolved immediately (simple fixes).
-Escalated to another team (complex issues).
-Pending User Response (waiting for more details).
+   ![Troubleshooting Process](https://i.imgur.com/1xeZ23i.png)
 
-<img src="https://i.imgur.com/1xeZ23i.png" alt="Image Description 2" width="500"/>
+4. **Escalation & Collaboration**
+   - If the issue is critical, the agent escalates the ticket to:
+     - Senior Support Team
+     - SysAdmins/Developers
+     - Vendor Support (for third-party software/hardware issues).
+   - Notes and actions are updated in the ticket history.
 
- Escalation & Collaboration
-If the issue is critical, the agent escalates the ticket to:
-Senior Support Team
-SysAdmins/Developers
-Vendor Support (for third-party software/hardware issues).
-Notes and actions are updated in the ticket history.
+   ![Escalation Process](https://i.imgur.com/3n9aSeL.png)
 
+5. **Resolution**
+   - The issue is resolved, and the ticket is closed.
+   - Final notes and resolutions are documented for future reference.
 
-<img src="https://i.imgur.com/3n9aSeL.png" alt="Image Description" width="500"/>
+---
 
+## Key Features of osTicket
+
+- Centralized ticket management.
+- Multi-channel support (email, web forms, phone, chat).
+- Automated workflows for efficiency.
+- Detailed reporting and analytics.
+
+---
+
+## Contributing
+
+If you'd like to contribute to this project or suggest improvements, feel free to open an issue or submit a pull request.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
